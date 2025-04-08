@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+
+/* NAVBAR CSS */
+
+.nav-bar-main{
+    padding: 20px 70px;
+   box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+   display: flex; 
+   justify-content: space-between;
+   background-color: white;
+   align-items: center;
+   position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     z-index: 999;
+}
+.app-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900;
+    font-size: 22px;
+   
+}
+.nav-menu{
+list-style: none;
+display: flex;
+gap: 20px;
+
+
+}
+.menu-profile{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+/* PROFILE PICTURE NAV */
+.profile-div{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+/* background-color: blue; */
+
+}
+.profile-login-img{
+width: 30px;
+height: 30px;
+object-fit: cover;
+border-radius: 50px;
+
+}
+.profile-name{
+font-size: 14px;
+font-weight: 350;
+padding-top: 3px;
+color: gray;
+}
+.search-bar-btn{
+/* background-color: white; */
+color:black;
+width: 600px;
+border: none;
+background: rgba(161, 161, 161, 0.101);
+border-radius: 15px;
+/* box-shadow:0px 5px 5px rgba(0,0,0,0.2); */
+padding:10px 15px;
+
+}
+
+.home-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:    background-color 0.3s , color 0.3s;
+}
+
+.home-btn:hover{
+color:white;
+background-color: black;
+
+}
+
+.main-container{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    /* background-color: bisque; */
+}
+
+
+
+
+  /* CATS CARD  CSS */
+.cat1{
+   
+   /* border: 1px solid black; */
+   display: inline-block;
+   object-fit: cover;
+   cursor: pointer;
+   /* box-shadow: 3px 3px 10px rgba(0,0,0,0.3); */
+}
+.cat1:hover{
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+
+}
+
+.cat1-name{
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Arial;
+}
+.mutual , .mutual2, .mutual3{
+    font-family: Arial;
+    color: rgb(113, 111, 111);
+    
+}
+.add-btn{
+    background-color: rgb(23, 125, 251);
+    color: white;
+    border: 1px solid rgb(23, 125, 251);
+    padding:10px 19px;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition:  background-color 0.3s, color 0.3s;
+}
+ .add-btn:hover{
+    background-color: white;
+    color:rgb(23, 125, 251);
+ }
+
+.text-name{
+    padding: 10px;
+
+}
+.img-cat1{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Cat 2  */
+
+.cat2{
+
+   /* border: 1px solid black; */
+   display: inline-block;
+   object-fit: cover;
+   cursor: pointer;
+   /* box-shadow: 3px 3px 10px rgba(0,0,0,0.3); */
+
+}
+.cat2:hover{
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+
+}
+.cat2-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.text-name2{
+    padding: 10px;
+}
+.cat2-name{
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+  /* CAT3 */
+
+ .cat3{
+    cursor: pointer;
+
+} 
+.cat3:hover{
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+
+}
+.cat3-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+.text-name3{
+    padding: 10px;
+}
+.cat3-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+/* CAT 4 */
+
+.cat4{
+ display: inline-block;
+ cursor: pointer;
+}
+.cat4:hover{
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+
+}
+.cat4-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.text-name4{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+.cat4-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+ /* BODY DIV  */
+
+.main-kabapp{
+    /* background-color:blueviolet ; */
+    margin-top: 100px ;
+    margin-bottom: 30px;
+    /* display: flex; */
+
+}
+.virtical-box{
+    /* background-color: black; */
+   height:450px;
+   width: 15%;
+ /* box-shadow: 8px 0px 10px rgba(0,0,0,0.2); */
+ margin-top: 60px;
+ padding:0px 10px 0px 10px;
+    
+}
+.chat-heading{
+    margin-top: 70px;
+}
+ .serach-friend{
+    margin-top: 7px ;
+    padding: 5px 10px 5px 10px ;
+    width: 100%;
+    border: none;
+    border-radius:15px;
+    background-color: rgba(108, 108, 108, 0.118);
+ }
+ .chat-box{
+    margin-top: 20px;
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+
+ }
+ .chat-box:hover{
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+ }
+ .chat-box-f1{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+   
+ }
+ .msg1-boby{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+ }
+ .boby-msg{
+    font-weight: 300;
+    font-size: 15px;
+    color: gray;
+ }
+.main-ka-bhi-baa{
+    display: flex;
+    
+    
+
+}
+
+.right-container{
+    /* background-color: brown; */
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer-box{
+
+/* background-color: beige; */
+ box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+ padding: 20px 70px;
+}
+.footer-box ul{
+    list-style: none;
+}
+.web-country{
+/* background-color: aqua; */
+display: flex;
+justify-content: space-between;
+}
+.web-name{
+font-weight: bold;
+
+}
+.country-name{
+display: flex;
+font-weight: 350;
+color: black;
+align-items: center;
+gap: 5px;
+
+}
+.flg-img{
+height: 20px;
+width: 20px;
+object-fit: cover;
+}
+.blue{
+/* background-color: blue; */
+display: flex;
+justify-content: space-between;
+
+}
+.red{
+
+/* background-color: red; */
+/* padding: 20px; */
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+.green{
+background-color: rgb(0, 255, 81);
+}
+/* .hr-div{
+    display: flex;
+    justify-content: center;
+} */
+.hr-line{
+    margin: auto;
+    opacity: 0.6;
+    width: 400px;
+ 
+}
